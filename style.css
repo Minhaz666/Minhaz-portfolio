@@ -33,7 +33,7 @@ body
     color: rgb(145, 255, 0);
 }
 
-section
+.section
 {
     display: flex;
     margin-bottom: 10%;
@@ -77,7 +77,7 @@ padding-left: 5%;
     padding: 2%;
 }
 
-.background
+.last-banner
 {
 background-image: url(images/exp-bg.png);
 background-repeat: no-repeat;
