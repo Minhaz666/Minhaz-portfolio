@@ -57,6 +57,7 @@ padding-left: 5%;
     color: white;
     border-radius: 15%;
     background-color: coral;
+    background-image: linear-gradient(orange , tomato)
     
 }
 
@@ -67,6 +68,7 @@ padding-left: 5%;
     background-color: olivedrab;
     padding: 2%;
     border-radius: 2%;
+    background-image: linear-gradient(blue , cyan);
     
 }
 
@@ -81,4 +83,29 @@ padding-left: 5%;
 {
 background-image: url(images/exp-bg.png);
 background-repeat: no-repeat;
+background-position: left;
+}
+
+.box-shadow
+{
+    width: 40%;
+    margin: 4%;
+    padding-left : 2%;
+   
+    box-shadow: 10px   10px  50px gray ;
+    border-radius: 2px ;
+}
+
+#border-right
+{
+    border-left: 7px solid ;
+    border-image: linear-gradient(blue , cyan);
+    border-image-slice: 1 ;
+   
+}
+#border-left
+{
+    border-left: 7px solid;
+    border-image: linear-gradient(orange , tomato);
+    border-image: 1;
 }
